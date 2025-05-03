@@ -60,9 +60,12 @@ class DataIngestorFactory:
             raise ValueError(f"No ingestor available for file extension: {file_extension}")
 
 if __name__ == "__main__":
+    
+    # Define the relative path to the dataset
+    relative_path = os.path.join(os.path.dirname(__file__), '../data/diabetes+130-us+hospitals+for+years+1999-2008.zip')
 
-    # Specify the file path
-    file_path = "C:/Users/u1109539/Downloads/CC_Project/diabetes-readmission-predictor/data/diabetes+130-us+hospitals+for+years+1999-2008.zip"
+    # Use the relative path
+    file_path = relative_path
 
     # Determine the file extension
     file_extension = os.path.splitext(file_path)[1]

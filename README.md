@@ -20,13 +20,32 @@ The dataset includes:
 4. Identify potential areas for improvement in diabetes care.
 
 ## Project Structure
-The project is organized into several directories:
 
-- **analysis**: Contains Jupyter notebooks for exploratory data analysis. The `analyze_src` subdirectory includes scripts for basic data inspection.
-- **data**: Includes the dataset file (`diabetes+130-us+hospitals+for+years+1999-2008.zip`) and scripts for data loading and preprocessing.
-- **extracted_data**: Contains extracted CSV files (`diabetic_data.csv` and `IDS_mapping.csv`) from the dataset.
-- **models**: Contains scripts for model training and prediction.
-- **src**: Includes the main script for data ingestion.
+The project is organized into several directories and important files:
+
+- **analysis**: 
+  - `analyze_src`: Includes scripts for basic data inspection.
+  
+- **data**: 
+  - `data_loader.py`: Script for loading data.
+  - `diabetes+130-us+hospitals+for+years+1999-2008.zip`: The main dataset file.
+  - `preprocessing.py`: Script for preprocessing data.
+  
+- **extracted_data**: 
+  - `diabetic_data.csv`: Extracted data from the dataset.
+  - `IDS_mapping.csv`: Mapping of IDs from the dataset.
+  
+- **models**: 
+  - `model_trainer.py`: Script for training models.
+  
+- **src**: 
+  - `ingest_data.py`: Main script for data ingestion.
+
+- **Root Directory**:
+  - `diabetes_readmission_predection.ipynb`: **Main Jupyter notebook** for the project, containing the core analysis and predictions.
+  - `Diabetes_Readmission_Summary.docx`: Summary document of the project findings.
+  - `README.md`: This file, providing an overview of the project structure.
+  - `requirements.txt`: Lists the dependencies required for the project.
 
 ## Installation
 Install the required dependencies using:
