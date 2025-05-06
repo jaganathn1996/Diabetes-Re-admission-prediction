@@ -1,5 +1,15 @@
 # Diabetes Readmission Prediction
 
+## Key Files
+
+- **diabetes_readmission_predection.ipynb**: Main Jupyter notebook for the project.
+- **requirements.txt**: List of dependencies.
+- analysis/analyze_src/**basic_data_inspection.py**: Script for basic data inspection.
+- data/**data_loader.py**: Script for loading data.
+- data/**preprocessing.py**: Script for preprocessing data.
+- models/**model_trainer.py**: Script for training models.
+- src/**ingest_data.py**: Script for ingesting data.
+
 ## Introduction
 This project analyzes a dataset containing diabetes-related information from 130 US hospitals over 10 years (1999-2008). The goal is to uncover insights and trends to improve diabetes care and management.
 
